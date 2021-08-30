@@ -2,6 +2,13 @@
 
 Implements the Python interface to all services exposed by AppSeed
 
+> Links
+
+- PyPi Page: [AppSeed Shell](https://pypi.org/project/appseed-shell/)
+- **Support**: 24/7 LIVE Support via [Discord] (registered users)
+
+<br />
+
 ## Table of contents
 
  * [Technologies](#technologies)
