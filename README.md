@@ -47,6 +47,16 @@ from appseed_shell import hello
 print( hello() )
 ```
 
+## Generate Django project
+
+Example:
+
+```python
+from appseed_shell import generate_django
+
+generate_django() 
+```
+
 <br />
 
 ## License

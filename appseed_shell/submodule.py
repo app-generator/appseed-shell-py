@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from cookiecutter.main import cookiecutter
 
 __test__ = {'import_test': """
                            >>> from appseed_shell.submodule import *
@@ -21,6 +22,8 @@ def hello():
 
     return "AppSeed Python CLI"
 
+def generate_django():
+    cookiecutter('https://github.com/app-generator/cookiecutter-django.git')
 
 __test__ = {
     'clean_test_files': """

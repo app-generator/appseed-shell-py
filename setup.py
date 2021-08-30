@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
 name='appseed-shell',
-version='0.0.2',
+version='0.0.4',
 zip_safe=False,
 packages=find_packages(),
 include_package_data=True,
@@ -36,4 +36,7 @@ classifiers=[
     'Topic :: Software Development',
     'Topic :: Software Development :: User Interfaces',
     ],
+install_requires=[
+        'cookiecutter',
+    ],    
 )
