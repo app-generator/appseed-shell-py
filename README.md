@@ -57,7 +57,7 @@ $ python
 >>> generate_django()
 ```
 
-The `generate_django()` helper will generate a simple Django Dashboard project quite similar to Django Dashboard Volt - Links:
+The `generate_django()` helper will build a simple Django Dashboard project quite similar to **Django Dashboard Volt** - Links:
 
 - [Django Bootstrap 5 Volt](https://appseed.us/admin-dashboards/django-dashboard-volt) - product page
 - [Django Bootstrap 5 Volt](https://django-volt-dashboard.appseed-srv1.com/) - LIVE deployment
