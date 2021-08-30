@@ -42,9 +42,9 @@ Simply and functional example/s of use.
 Example:
 
 ```python
-from appseed_shell import hello
-
-print( hello() )
+$ python
+>>> from appseed_shell import hello
+>>> print( hello() )
 ```
 
 ## Generate Django project
@@ -52,10 +52,19 @@ print( hello() )
 Example:
 
 ```python
-from appseed_shell import generate_django
-
-generate_django() 
+$ python
+>>> from appseed_shell import generate_django
+>>> generate_django()
 ```
+
+The `generate_django()` helper will generate a simple Django Dashboard project quite similar to Django Dashboard Volt - Links:
+
+- [Django Bootstrap 5 Volt](https://appseed.us/admin-dashboards/django-dashboard-volt) - product page
+- [Django Bootstrap 5 Volt](https://django-volt-dashboard.appseed-srv1.com/) - LIVE deployment
+
+<br />
+
+![Django Bootstrap 5 Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-volt/master/media/django-dashboard-volt-intro.gif)
 
 <br />
 
