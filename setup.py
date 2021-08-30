@@ -8,12 +8,13 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
 name='appseed-shell',
-version='0.0.1',
+version='0.0.2',
 zip_safe=False,
 packages=find_packages(),
 include_package_data=True,
 description='Implements the Python interface to all services exposed by AppSeed',
-long_description='The package exposes tools and helpers to generate seed projects',
+long_description=README,
+long_description_content_type="text/markdown",
 url='https://github.com/app-generator/appseed-shell-py',
 author='AppSeed.us',
 author_email='support@appseed.us',
