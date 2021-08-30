@@ -53,5 +53,7 @@ print( hello() )
 
 @MIT License
 
+<br />
+
 ---
 AppSeed Shell (Python Interface) - provided by AppSeed [App Generator](https://appseed.us)
