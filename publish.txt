@@ -1,2 +1,7 @@
 python setup.py sdist
-twine upload dist/*
+twine check dist/*
+
+twine upload dist/<NEW_PACKAGE>
+
+Full Info
+https://github.com/pypa/warehouse/issues/5890#issuecomment-494868157
